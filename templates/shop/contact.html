@@ -1,0 +1,123 @@
+{% extends 'shop/basic.html' %}
+
+{% block title %} Contact Us {% endblock  %}
+
+{% block body %} 
+<head>
+<style>
+
+
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+
+
+
+
+</style>
+
+</head>
+
+
+
+
+
+<div class="header">
+  <h1>VAISHNO KUMAR</h1>
+</div>
+
+
+
+  <div class="card">
+    <h2>Contact Us</h2><br>
+    <img style="height: 250px; width: 250px;" src="https://media-exp1.licdn.com/dms/image/C4D03AQH_bbW3iLlfiA/profile-displayphoto-shrink_800_800/0/1625223151027?e=1641427200&v=beta&t=3sclosgxy0pK_oLXIOgBPzXO7_kM5wrbAyc63sW8Je8" ><br>
+    <p><h6><b>Contact</b>: +91-8126159737 </h6>
+        <h6><b>Email</b>: kumarvaishnav17@gmail.com </h6>
+        <h6><b>LinkedIN</b>:<a href="https://www.linkedin.com/in/vaishno-kumar/"> https://www.linkedin.com/in/vaishno-kumar/</a>  </h6>
+        <h6><b>Github</b>:<a href="https://github.com/Vaishnokmr">https://github.com/Vaishnokmr</a>  </h6>
+        <h6><b>Tableau</b>:<a href="https://public.tableau.com/app/profile/vaishno.kumar"> https://public.tableau.com/app/profile/vaishno.kumar</a>  </h6>
+        <h6><b>Medium</b>:<a href="https://medium.com/@kumarvaishnav17"> https://medium.com/@kumarvaishnav17</a>  </h6>
+        </p>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
