@@ -1,2 +1,2 @@
-web: gunicorn mac.wsgi
+web:gunicorn mac.wsgi
 heroku ps:scale web=1
