@@ -127,6 +127,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
+
+#managing static root
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
 
 # Default primary key field type
@@ -138,8 +141,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT= os.path.join(BASE_DIR, "media")
 MEDIA_URL = '/media/'
 
-#managing static root
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
