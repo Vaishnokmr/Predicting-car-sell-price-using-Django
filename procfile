@@ -1,1 +1,2 @@
 web: gunicorn mac.wsgi --log-file -
+heroku ps:scale web=1
