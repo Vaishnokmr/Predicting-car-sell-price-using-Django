@@ -18,12 +18,6 @@ def index(request):
     #params = {"allProds" : allProds}
     return render(request,'shop/index.html',params)
 
-def about(request):
-    return render(request,'shop/about.html')
-
-def contact(request):
-    return render(request,'shop/contact.html')
-
 def productview(request,myid):
     product=Product.objects.filter(id=myid)
     
